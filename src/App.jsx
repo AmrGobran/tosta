@@ -30,7 +30,7 @@ const App = () => {
 			<BrowserRouter>
 				<ScrollToHash />
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/tosta" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/menu" element={<Menu />} />
 					<Route path="/locations" element={<Locations />} />

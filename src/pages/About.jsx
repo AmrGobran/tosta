@@ -42,7 +42,7 @@ const About = () => {
 				{/* Philosophy */}
 				<section className="grid grid-cols-1 md:grid-cols-2 gap-8 !pt-0">
 					<div className="rounded overflow-hidden">
-						<img src="/images/hero-800.webp" alt="Coffee" loading="lazy" />
+						<img src="/images/hero.jpg" alt="Coffee" loading="lazy" />
 					</div>
 					<div className="flex flex-col justify-center">
 						<h2 className="text-2xl md:text-3xl font-bold py-6">Our Coffee Philosophy</h2>
