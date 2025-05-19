@@ -91,7 +91,7 @@ const About = () => {
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 						<div className="flex flex-col items-center text-center text-gray-700">
 							<div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden mb-5">
-								<img src="src/assets/images/team/team-1.jpg" alt="Alex Chen" loading="lazy" />
+								<img src="../tosta/images/team/team-1.jpg" alt="Alex Chen" loading="lazy" />
 							</div>
 							<h3 className="text-xl font-bold text-black">Alex Chen</h3>
 							<h4 className="text-amber-800 mb-4">Founder & Head Roaster</h4>
@@ -101,7 +101,7 @@ const About = () => {
 						</div>
 						<div className="flex flex-col items-center text-center text-gray-700">
 							<div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden mb-5">
-								<img src="src/assets/images/team/team-2.jpg" alt="Maya Wilson" loading="lazy" />
+								<img src="../tosta/images/team/team-2.jpg" alt="Maya Wilson" loading="lazy" />
 							</div>
 							<h3 className="text-xl font-bold text-black">Maya Wilson</h3>
 							<h4 className="text-amber-800 mb-4">Co-founder & Executive Chef</h4>
@@ -111,7 +111,7 @@ const About = () => {
 						</div>
 						<div className="flex flex-col items-center text-center text-gray-700">
 							<div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden mb-5">
-								<img src="src/assets/images/team/team-3.jpg" alt="Daniel Lee" loading="lazy" />
+								<img src="../tosta/images/team/team-3.jpg" alt="Daniel Lee" loading="lazy" />
 							</div>
 							<h3 className="text-xl font-bold text-black">Daniel Lee</h3>
 							<h4 className="text-amber-800 mb-4">Head Barista</h4>
