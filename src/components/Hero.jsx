@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
 	return (
 		<div>
@@ -14,12 +16,12 @@ const Hero = () => {
 					<h1 className="text-5xl sm:text-6xl md:text-8xl font-bold leading-tight">Tosta</h1>
 					<p className="mt-4 mb-8 text-base sm:text-lg text-white">Simple coffee. Honest flavors. Cozy moments.</p>
 					<div className="pt-8 flex items-center gap-4 justify-center md:justify-start flex-wrap">
-						<a href="#contact" className="px-4 py-2 rounded-md btn font-semibold">
+						<Link to="/tosta/#contact" className="px-4 py-2 rounded-md btn font-semibold">
 							Get in Touch
-						</a>
-						<a href="/tosta/menu" className="px-4 py-2 rounded-md white-btn font-semibold">
+						</Link>
+						<Link to="/tosta/menu" className="px-4 py-2 rounded-md white-btn font-semibold">
 							View Menu
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { menu } from "../utils/menuData.js";
 
 const MenuPreview = () => {
@@ -35,9 +36,9 @@ const MenuPreview = () => {
 					</div>
 				))}
 			</div>
-			<a href="/tosta/menu" className="btn w-fit py-2 px-3 text-sm mx-auto font-semibold">
+			<Link to="/tosta/menu" className="btn w-fit py-2 px-3 text-sm mx-auto font-semibold">
 				See Full Menu
-			</a>
+			</Link>
 		</section>
 	);
 };

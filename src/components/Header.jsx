@@ -33,7 +33,7 @@ const Header = () => {
 
 						{/* <!-- Call to Action --> */}
 						<div className="hidden md:block">
-							<Link to="/#contact" className="px-4 py-2 rounded-md btn font-semibold">
+							<Link to="/tosta/#contact" className="px-4 py-2 rounded-md btn font-semibold">
 								Get in Touch
 							</Link>
 						</div>
@@ -68,7 +68,7 @@ const Header = () => {
 							Locations
 						</Link>
 						<Link
-							to="/#contact"
+							to="/tosta/#contact"
 							onClick={() => setIsMenuOpen(false)}
 							className="btn mt-2 px-4 py-2 font-semibold text-center"
 						>
