@@ -1,17 +1,21 @@
-# Tosta Coffee Shop Website
+# ☕ Tosta – Coffee Shop Website
 
-![Tosta Coffee Shop Preview](./public/images/screencapture-home-page.png) <!-- Add a screenshot if available -->
+![Tosta Coffee Shop Preview](./public/images/screencapture-home-page.png)
 
-A modern, responsive website for Tosta Coffee Shop built with React 19 and Tailwind CSS v4, featuring smooth animations, a scroll-to-top button, and optimal performance.
+**Tosta** is a modern, responsive one-page coffee shop website built with **React** and **Tailwind CSS**. It’s designed to showcase a local brand, promote a menu, and collect leads through a newsletter and contact form — all without a backend.
 
 ## ✨ Features
 
 ### 🚀 Modern Stack
 
-- Built with **React 19** (using latest features)
-- Styled with **Tailwind CSS v4** (next-gen utility classes)
-- Responsive design with mobile-first approach
-- Optimized performance (code splitting, lazy loading)
+- ⚛️ Built with **React 19**
+- 🎨 Styled with **Tailwind CSS 4**
+- 🧭 Smooth scrolling navigation
+- 📜 Fully responsive design
+- ☕ Dynamic menu rendered from a data array
+- 📬 Contact & Newsletter forms powered by **FormSubmit**
+- 🔝 Scroll-to-top button
+- 🌐 Semantic HTML5 & accessibility-friendly
 
 ### 🎯 UX Enhancements
 
@@ -45,8 +49,16 @@ A modern, responsive website for Tosta Coffee Shop built with React 19 and Tailw
 
 ## 🚀 Installation & Usage
 
-1. Clone the repository:
-
 ```bash
-   git clone https://github.com/AmrGobran/tosta.git
+# Clone the repository
+git clone https://github.com/yourusername/tosta.git
+
+# Navigate into the project
+cd coffee-shop
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```

@@ -80,6 +80,16 @@ const Footer = () => {
 			</div>
 
 			<div className="border-t border-gray-800 mt-12 pt-8 text-center">
+				<p className="mb-2 text-sm">
+					made with ☕ by{" "}
+					<a
+						href="https://github.com/AmrGobran"
+						target="_blank"
+						className="font-semibold text-white underline cursor-pointer"
+					>
+						AmrGobran
+					</a>
+				</p>
 				<p>© {new Date().getFullYear()} Tosta Coffee Shop. All rights reserved.</p>
 			</div>
 		</footer>
