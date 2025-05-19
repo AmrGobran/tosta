@@ -1,0 +1,32 @@
+export const galleryImages = [
+	{
+		id: 1,
+		src: "src/assets/images/gallery/img-1.jpg",
+		alt: "Coffee shop interior",
+	},
+	{
+		id: 2,
+		src: "src/assets/images/gallery/img-2.jpg",
+		alt: "Barista making latte art",
+	},
+	{
+		id: 3,
+		src: "src/assets/images/gallery/img-3.jpg",
+		alt: "Coffee beans closeup",
+	},
+	{
+		id: 4,
+		src: "src/assets/images/gallery/img-4.jpg",
+		alt: "Coffee and pastry",
+	},
+	{
+		id: 5,
+		src: "src/assets/images/gallery/img-5.jpg",
+		alt: "People enjoying coffee",
+	},
+	{
+		id: 6,
+		src: "src/assets/images/gallery/img-6.jpg",
+		alt: "Coffee brewing process",
+	},
+];
