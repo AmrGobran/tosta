@@ -6,7 +6,7 @@ const Hero = () => {
 			<div className="relative min-h-[600px] flex items-center bg-black text-white mt-16 px-4 sm:px-8 md:px-12">
 				{/* <!-- Background image --> */}
 				<div className="absolute inset-0">
-					<img src="../tosta/images/hero.jpg" alt="Tosta coffee shop" />
+					<img src="../tosta/images/hero.jpg" alt="Tosta coffee shop" fetchPriority="high" />
 					{/* <!-- Gradient overlay --> */}
 					<div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent"></div>
 				</div>
