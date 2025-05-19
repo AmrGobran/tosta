@@ -69,6 +69,7 @@ const ContactForm = () => {
 							type="text"
 							name="name"
 							id="name"
+							autoComplete={true}
 							placeholder="Your name"
 							value={formData.name}
 							onChange={(e) => handleChange(e.target.name, e.target.value)}
@@ -87,6 +88,7 @@ const ContactForm = () => {
 							type="email"
 							name="email"
 							id="email"
+							autoComplete={true}
 							placeholder="your.email@example.com"
 							value={formData.email}
 							onChange={(e) => handleChange(e.target.name, e.target.value)}
@@ -124,6 +126,7 @@ const ContactForm = () => {
 						name="message"
 						id="message"
 						rows={8}
+						autoComplete={true}
 						placeholder="Your message here..."
 						value={formData.message}
 						onChange={(e) => handleChange(e.target.name, e.target.value)}
