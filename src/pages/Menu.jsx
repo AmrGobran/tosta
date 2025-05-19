@@ -15,7 +15,7 @@ const Menu = () => {
 					{menu.map((item) => (
 						<div key={item.id} className="flex flex-col rounded-xl shadow-lg overflow-hidden">
 							<div className="w-full h-50 aspect-3/2">
-								<img src={`${item.img}`} alt={item.name} loading="lazy" />
+								<img src={`../${item.img}`} alt={item.name} loading="lazy" />
 							</div>
 							<div className="p-4 flex-1 flex flex-col *:not-first:mt-4">
 								<div className="flex items-center justify-between font-semibold">
