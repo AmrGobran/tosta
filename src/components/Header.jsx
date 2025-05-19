@@ -20,13 +20,13 @@ const Header = () => {
 							<Link to="/tosta" className="nav-link">
 								Home
 							</Link>
-							<Link to="/about" className="nav-link">
+							<Link to="/tosta/about" className="nav-link">
 								About Us
 							</Link>
-							<Link to="/menu" className="nav-link">
+							<Link to="/tosta/menu" className="nav-link">
 								Menu
 							</Link>
-							<Link to="/locations" className="nav-link">
+							<Link to="/tosta/locations" className="nav-link">
 								Locations
 							</Link>
 						</div>
@@ -58,13 +58,13 @@ const Header = () => {
 						<Link to="/tosta" className="mobile-nav-link">
 							Home
 						</Link>
-						<Link to="/about" className="mobile-nav-link">
+						<Link to="/tosta/about" className="mobile-nav-link">
 							About Us
 						</Link>
-						<Link to="/menu" className="mobile-nav-link">
+						<Link to="/tosta/menu" className="mobile-nav-link">
 							Menu
 						</Link>
-						<Link to="/locations" className="mobile-nav-link">
+						<Link to="/tosta/locations" className="mobile-nav-link">
 							Locations
 						</Link>
 						<Link

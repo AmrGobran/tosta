@@ -17,7 +17,7 @@ const Hero = () => {
 						<a href="#contact" className="px-4 py-2 rounded-md btn font-semibold">
 							Get in Touch
 						</a>
-						<a href="/menu" className="px-4 py-2 rounded-md white-btn font-semibold">
+						<a href="/tosta/menu" className="px-4 py-2 rounded-md white-btn font-semibold">
 							View Menu
 						</a>
 					</div>

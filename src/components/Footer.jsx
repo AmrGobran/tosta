@@ -37,13 +37,13 @@ const Footer = () => {
 							<Link to="/tosta">Home</Link>
 						</li>
 						<li>
-							<Link to="/about">About Us</Link>
+							<Link to="/tosta/about">About Us</Link>
 						</li>
 						<li>
-							<Link to="/menu">Menu</Link>
+							<Link to="/tosta/menu">Menu</Link>
 						</li>
 						<li>
-							<Link to="/locations">Locations</Link>
+							<Link to="/tosta/locations">Locations</Link>
 						</li>
 						<li>
 							<Link to="/#contact">Get in Touch</Link>

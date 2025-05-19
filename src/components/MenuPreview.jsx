@@ -35,7 +35,7 @@ const MenuPreview = () => {
 					</div>
 				))}
 			</div>
-			<a href="/menu" className="btn w-fit py-2 px-3 text-sm mx-auto font-semibold">
+			<a href="/tosta/menu" className="btn w-fit py-2 px-3 text-sm mx-auto font-semibold">
 				See Full Menu
 			</a>
 		</section>
