@@ -10,13 +10,13 @@ const Footer = () => {
 					<h3 className="!text-2xl">Tosta</h3>
 					<p>Serving warmth, community, and rich coffee — one cup at a time.</p>
 					<div className="flex *:text-2xl gap-3 *:duration-300 mt-10">
-						<Link to="/" aria-label="Facebook link" className="hover:text-blue-500">
+						<Link to="/tosta" aria-label="Facebook link" className="hover:text-blue-500">
 							<FaFacebook />
 						</Link>
-						<Link to="/" aria-label="X/Twitter link" className="hover:text-white">
+						<Link to="/tosta" aria-label="X/Twitter link" className="hover:text-white">
 							<FaXTwitter />
 						</Link>
-						<Link to="/" aria-label="Instagram link" className="hover:text-fuchsia-500">
+						<Link to="/tosta" aria-label="Instagram link" className="hover:text-fuchsia-500">
 							<FaInstagram />
 						</Link>
 						<Link
@@ -34,7 +34,7 @@ const Footer = () => {
 					<h3 className="footer-heading">Links</h3>
 					<ul className="*:hover:text-white *:duration-300">
 						<li>
-							<Link to="/">Home</Link>
+							<Link to="/tosta">Home</Link>
 						</li>
 						<li>
 							<Link to="/about">About Us</Link>

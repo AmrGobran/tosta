@@ -12,12 +12,12 @@ const Header = () => {
 					<div className="flex justify-between items-center h-16">
 						{/* <!-- Logo --> */}
 						<div className="flex-shrink-0 text-amber-900 font-bold text-3xl">
-							<Link to="/">Tosta</Link>
+							<Link to="/tosta">Tosta</Link>
 						</div>
 
 						{/* <!-- Desktop Menu --> */}
 						<div className="hidden md:flex space-x-8 text-amber-900 font-semibold">
-							<Link to="/" className="nav-link">
+							<Link to="/tosta" className="nav-link">
 								Home
 							</Link>
 							<Link to="/about" className="nav-link">
@@ -55,7 +55,7 @@ const Header = () => {
 				{/* <!-- Mobile Menu --> */}
 				{isMenuOpen && (
 					<div id="mobile-menu" className="md:hidden px-4 pb-4">
-						<Link to="/" className="mobile-nav-link">
+						<Link to="/tosta" className="mobile-nav-link">
 							Home
 						</Link>
 						<Link to="/about" className="mobile-nav-link">
