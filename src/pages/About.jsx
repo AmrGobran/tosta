@@ -15,7 +15,7 @@ const About = () => {
 				<PageHero
 					title="Our Story"
 					description="Discover the passion and dedication behind Tosta Coffee Shop"
-					imageSRC="about-bg"
+					imageSRC="about"
 				/>
 
 				{/* story */}

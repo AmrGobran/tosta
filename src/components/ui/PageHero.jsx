@@ -5,7 +5,7 @@ const PageHero = ({ title, description, imageSRC }) => {
 				<picture>
 					<source srcSet="/images/about-bg.webp" type="image/webp" />
 					<img
-						src={`/images/${imageSRC}-bg.webp`}
+						src={`/images/${imageSRC}.jpg`}
 						alt="Tosta coffee shop"
 						loading="eager"
 						fetchPriority="high"

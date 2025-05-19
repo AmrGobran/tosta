@@ -12,7 +12,7 @@ const Locations = () => {
 			<ScrollToTop />
 			<Header />
 			<main className="container flex-1">
-				<PageHero title="Our Locations" description="Find a Tosta Coffee Shop near you." imageSRC="locations-bg" />
+				<PageHero title="Our Locations" description="Find a Tosta Coffee Shop near you." imageSRC="locations" />
 				<section className="space-y-16">
 					{locations.map((location) => (
 						<div key={location.id} className="grid grid-cols-1 lg:grid-cols-2 gap-8">

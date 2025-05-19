@@ -10,11 +10,7 @@ const Menu = () => {
 			<ScrollToTop />
 			<Header />
 			<main className="container flex-1">
-				<PageHero
-					title="Our Menu"
-					description="Discover our delicious offerings, made fresh daily."
-					imageSRC="menu-bg"
-				/>
+				<PageHero title="Our Menu" description="Discover our delicious offerings, made fresh daily." imageSRC="menu" />
 				<div className="grid grid-cols-1 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-8 pt-30 px-8 mb-15">
 					{menu.map((item) => (
 						<div key={item.id} className="flex flex-col rounded-xl shadow-lg overflow-hidden">
